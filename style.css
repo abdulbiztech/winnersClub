@@ -136,7 +136,57 @@
   font-weight: 800;
   margin: 30px 0px;
 }
+
 .sect_4_bg {
+  background: url("/assets/background.png") no-repeat center center;
+  background-size: cover;
+  padding: 50px 0;
+  text-align: center;
+  color: #ffcc00;
+}
+
+.banner_caption_4 h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.banner_caption_4 h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.social-icon img {
+  width: 60%;
+  height: auto;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+/* .sect_4_bg {
   background: url("/assets/background.png") no-repeat center center;
   background-size: cover;
   padding: 50px 0;
@@ -215,6 +265,127 @@
 
 .image-box img {
   width: 100%;
+} */
+/* //intro */
+.sect_5_bg{
+  background-image: url("/assets/background.png"); /* Adjust the path if needed */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+.banner_caption_5{
+  padding: 20px;
+  /* background-color: rgba(0, 0, 0, 0.7); Semi-transparent background */
+  border-radius: 10px;
+}
+.banner_caption_5 .introduction {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Adjust color to match the design */
+}
+.banner_caption_5 .intro-text {
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bonus-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bonus-list li {
+  font-size: 1.5em;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bonus-list li strong {
+  margin-right: 10px;
+  color: #ffcc00;
+}
+
+.bonus-list li span {
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+/* //our platform */
+
+.sect_6_bg {
+  background-image: url("/assets/background.png"); /* Adjust the path if needed */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+/* Caption styling */
+.banner_caption_6 {
+  padding: 20px;
+  /* background-color: rgba(0, 0, 0, 0.7); Semi-transparent background */
+  border-radius: 10px;
+}
+
+.platform-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Adjust color to match the design */
+}
+
+.platforms {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.platform {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.platform img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.platform img:hover {
+  transform: scale(1.1);
+}
+
+.platform p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.platform span {
+  font-size: 1em;
+  color: #ffcc00;
+  display: block;
+  margin-top: 5px;
 }
 @media screen and (max-width: 600px) {
   .platform-item {
