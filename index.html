@@ -17,55 +17,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <style>
-      /* Custom CSS for animations */
-      .zoom-in-down {
-        animation: zoom-in-down 1s ease-out both;
-      }
-
-      @keyframes zoom-in-down {
-        0% {
-          transform: scale(0);
-          opacity: 0;
-        }
-        100% {
-          transform: scale(1);
-          opacity: 1;
-        }
-      }
-
-      .flip-up {
-        animation: flip-up 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      }
-
-      @keyframes flip-up {
-        0% {
-          transform: perspective(400px) rotateX(90deg);
-          opacity: 0;
-        }
-        100% {
-          transform: perspective(400px) rotateX(0);
-          opacity: 1;
-        }
-      }
-
-      .fade-right {
-        animation: fade-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-      }
-
-      @keyframes fade-right {
-        0% {
-          transform: translateX(-50px);
-          opacity: 0;
-        }
-        100% {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-    </style>
   </head>
   <body>
+    <!-- first section -->
     <section>
       <div class="container-fluid">
         <div class="row">
@@ -73,10 +27,13 @@
             <div class="banner_caption" data-aos="zoom-in">
               <div class="video-section">
                 <video class="video_box" autoplay muted loop>
-                  <source src="/assets/background_video.mp4" type="video/mp4" />
+                  <source
+                    src="./assets/slide/slidevideo.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 <div class="image-box animate__animated animate__zoomInDown">
-                  <img src="/assets/slide/slide1.png" alt="" />
+                  <img src="./assets/slide/slide1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -84,82 +41,455 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 p-0">
-            <div class="banner_caption" data-aos="zoom-in">
-              <div class="video-section">
-                <video class="video_box" autoplay muted loop>
-                  <source src="/assets/slide/slidevideo.mp4" type="video/mp4" />
-                </video>
-                <div class="image-box animate__animated animate__zoomInDown">
-                  <img src="/assets/slide/slide2.png" alt="" />
-                </div>
-                <div class="row">
-                  <div class="col-6">
-                    <img
-                      src="/assets/slide/slide3logo.png"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <div class="col-6"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sect_5_bg">
+    <!-- second section -->
+    <section class="banner-new">
+      <video class="video_box2" autoplay muted loop>
+        <source src="./assets/slide/slidevideo.mp4" type="video/mp4" />
+      </video>
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <div class="banner_caption_5" data-aos="fade-right" data-aos-duration="2000">
+            <div class="bn">
+              <div class="video_section2">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <div class="animate__animated animate__zoomInDown">
+                      <img
+                        src="./assets/slide/slide2.png"
+                        class="img-fluid background_img2"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row my-5">
+                  <div class="col-md-6 col-12">
+                    <img
+                      src="./assets/slide/slide3logo.png"
+                      class="img-fluid background_img3"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div class="row mx-3 my-2">
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/vblink.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/vault.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/juwa.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/jackpot.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mx-3 my-2">
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/orion.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/vegas.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/spin.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-6">
+                        <div class="addimg_box wave">
+                          <img
+                            src="./assets/frenzy.jpeg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- third section -->
+    <section class="sect_3_bg">
+      <video class="video_box2" autoplay muted loop>
+        <source src="./assets/background_video.mp4" type="video/mp4" />
+      </video>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="banner_caption_5"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <h2 class="introduction">INTRODUCTION</h2>
               <p class="intro-text">
-                Get ready to spin and win with our exclusive online offers and enjoy the thrill of gaming from the comfort of your home
+                Get ready to spin and win with our exclusive online offers and
+                enjoy the thrill of gaming from the comfort of your home
               </p>
               <ul class="bonus-list">
                 <li><strong>100%</strong> Sign up bonus <span>🤑</span></li>
                 <li><strong>10% - 50%</strong> Daily bonus <span>🤑</span></li>
-                <li><strong>$7</strong> Referral Bonus & MUCH MORE! <span>😎</span></li>
+                <li>
+                  <strong>$7</strong> Referral Bonus & MUCH MORE!
+                  <span>😎</span>
+                </li>
               </ul>
-              <!-- <div class="bonus-details"> -->
-                <!-- <h2>INTRODUCTION</h2>
-                <p>Get ready to spin and win with our exclusive online offers and enjoy the thrill of gaming from the comfort of your home</p>
-                <ul>
-                  <li><strong>100%</strong> Sign up bonus <span>🤑</span></li>
-                  <li><strong>10% - 50%</strong> Daily bonus <span>🤑</span></li>
-                  <li><strong>$7</strong> Referral Bonus & MUCH MORE! <span>😎</span></li>
-                </ul>
-              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sect_4_bg" data-aos="fade-up">
+      <video class="video_box2" autoplay muted loop>
+        <source src="./assets/background_video.mp4" type="video/mp4" />
+      </video>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner_caption_4">
+              <h2>JOIN US ON WHATSAPP &</h2>
+              <h1>GET 100% SIGN UP BONUS !!!!</h1>
+              <div class="social-icons">
+                <div
+                  class="social-icon"
+                  data-aos="zoom-in"
+                  data-aos-delay="100"
+                >
+                  <a
+                    href="https://web.whatsapp.com/send?phone=+12548042716&text=Hello%2C%20World!"
+                    target="_blank"
+                  >
+                    <img
+                      src="./assets/whats.png"
+                      alt="Whatsapp"
+                      class="animate__animated animate__zoomIn"
+                    />
+                  </a>
+                </div>
+                <div class="arrow-icons">
+                  <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div
+                  class="social-icon"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <a href="http://t.me/MegawinnersclubMWC" target="_blank">
+                    <img
+                      src="./assets/slide/whatsScan.jpg"
+                      alt="Telegram"
+                      class="animate__animated animate__zoomIn"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sect_3_bg" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner_caption_3">
+              <h2>GAMES WE OFFER</h2>
+              <div class="row justify-content-center">
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="100"
+                >
+                  <div class="platform-item">
+                    <a href="http://dl.juwa777.com" target="_blank">
+                      <img
+                        src="./assets/juwa.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="200"
+                >
+                  <div class="platform-item">
+                    <a href="http://www.cashfrenzy777.com" target="_blank">
+                      <img
+                        src="./assets/frenzy.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="300"
+                >
+                  <div class="platform-item">
+                    <a href="http://milkywayapp.xyz" target="_blank">
+                      <img
+                        src="./assets/milky.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="400"
+                >
+                  <div class="platform-item">
+                    <a
+                      href="http://www.megaspinsweeps.com/index.html"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/spin.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="500"
+                >
+                  <div class="platform-item">
+                    <a href="http://caribbeantreasures.vip" target="_blank">
+                      <img
+                        src="./assets/treasure.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="600"
+                >
+                  <div class="platform-item">
+                    <a href="http://www.vblink777.club" target="_blank">
+                      <img
+                        src="./assets/vblink.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="100"
+                >
+                  <div class="platform-item">
+                    <a href="http://www.gameroom777.com" target="_blank">
+                      <img
+                        src="./assets/gameroom.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="200"
+                >
+                  <div class="platform-item">
+                    <a href="http://play.firekirin.xyz" target="_blank">
+                      <img
+                        src="./assets/jackpot.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="300"
+                >
+                  <div class="platform-item">
+                    <a
+                      href="http://orionstars.vip:8580/index.html"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/orion.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="400"
+                >
+                  <div class="platform-item">
+                    <a
+                      href="http://www.pandamaster.vip:8888/index.html"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/panda.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="500"
+                >
+                  <div class="platform-item">
+                    <a href="http://download.gamevault999.com" target="_blank">
+                      <img
+                        src="./assets/vault.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-md-2 col-6"
+                  data-aos="flip-up"
+                  data-aos-delay="600"
+                >
+                  <div class="platform-item">
+                    <a href="http://m.lasvegassweeps.com" target="_blank">
+                      <img
+                        src="./assets/vegas.jpeg"
+                        alt="Game E"
+                        class="game-icon animate__animated animate__heartBeat"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p>(CLICK ON ICONS TO DOWNLOAD)</p>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="sect_6_bg">
+      <video class="video_box2" autoplay muted loop>
+        <source src="./assets/background_video.mp4" type="video/mp4" />
+      </video>
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <div class="banner_caption_6" data-aos="fade-right" data-aos-duration="2000">
+            <div
+              class="banner_caption_6"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <h2 class="platform-title">OUR PLATFORMS</h2>
-              <div class="platforms">
-                <div class="platform">
-                  <img src="/assets/slide/windmill.jpeg" alt="Wind Mill Slots">
-                  <p>WINDMILL SLOTS</p>
-                  <span>Click icons to join us!!!!</span>
-                </div>
-                <div class="platform">
-                  <img src="/assets/slide/whirl.jpeg" alt="Winning Whirl">
-                  <p>WINNING WHIRL</p>
-                </div>
-                <div class="platform">
-                  <img src="/assets/slide/spinwin.jpeg" alt="Spin Win">
-                  <p>SPIN WIN</p>
-                  <span>Click icons to join us!!!!</span>
+              <div class="row">
+                <div class="row">
+                  <div class="col-6 col-md-4">
+                    <div class="platform">
+                      <img
+                        src="./assets/slide/windmill.jpeg"
+                        alt="Wind Mill Slots"
+                      />
+                      <p>WINDMILL SLOTS</p>
+                      <span>Click icons to join us!!!!</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4">
+                    <div class="platform">
+                      <img
+                        src="./assets/slide/windmill.jpeg"
+                        alt="Wind Mill Slots"
+                      />
+                      <p>WINDMILL SLOTS</p>
+                      <span>Click icons to join us!!!!</span>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-4">
+                    <div class="platform">
+                      <img
+                        src="./assets/slide/windmill.jpeg"
+                        alt="Wind Mill Slots"
+                      />
+                      <p>WINDMILL SLOTS</p>
+                      <span>Click icons to join us!!!!</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -167,7 +497,7 @@
         </div>
       </div>
     </section>
-    <section class="sect_2_bg">
+    <!-- <section class="sect_2_bg">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -185,309 +515,6 @@
                 REFERRALS, DAILY BONUSES, AND MUCH MORE! EMBRACE THE CHANCE TO
                 WIN BIG WITH OUR EXPERT TEAM.
               </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- <section class="sect_6_bg">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner_caption_6" data-aos="fade-right" data-aos-duration="2000">
-              <h2 class="platform-title">OUR PLATFORMS</h2>
-              <div class="platforms">
-                <div class="platform">
-                  <img src="/assets/slide/windmill.jpeg" alt="Wind Mill Slots">
-                  <p>WINDMILL SLOTS</p>
-                  <span>Click icons to join us!!!!</span>
-                </div>
-                <div class="platform">
-                  <img src="/assets/slide/whirl.jpeg" alt="Winning Whirl">
-                  <p>WINNING WHIRL</p>
-                </div>
-                <div class="platform">
-                  <img src="/assets/slide/spinwin.jpeg" alt="Spin Win">
-                  <p>SPIN WIN</p>
-                  <span>Click icons to join us!!!!</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-
-    <section class="sect_3_bg" data-aos="fade-up">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner_caption_3">
-              <h2>EXPLORE OUR GAMING PLATFORMS</h2>
-              <div class="row justify-content-center">
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="100"
-                >
-                  <div class="platform-item">
-                    <a href="http://dl.juwa777.com" target="_blank">
-                      <img
-                        src="/assets/juwa.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="200"
-                >
-                  <div class="platform-item">
-                    <a href="http://www.cashfrenzy777.com" target="_blank">
-                      <img
-                        src="/assets/frenzy.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="300"
-                >
-                  <div class="platform-item">
-                    <a href="http://milkywayapp.xyz" target="_blank">
-                      <img
-                        src="/assets/milky.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="400"
-                >
-                  <div class="platform-item">
-                    <a
-                      href="http://www.megaspinsweeps.com/index.html"
-                      target="_blank"
-                    >
-                      <img
-                        src="/assets/spin.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="500"
-                >
-                  <div class="platform-item">
-                    <a href="http://caribbeantreasures.vip" target="_blank">
-                      <img
-                        src="/assets/treasure.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="600"
-                >
-                  <div class="platform-item">
-                    <a href="http://www.vblink777.club" target="_blank">
-                      <img
-                        src="/assets/vblink.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="row my-3">
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="100"
-                >
-                  <div class="platform-item">
-                    <a href="http://www.gameroom777.com" target="_blank">
-                      <img
-                        src="/assets/gameroom.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="200"
-                >
-                  <div class="platform-item">
-                    <a href="http://play.firekirin.xyz" target="_blank">
-                      <img
-                        src="/assets/jackpot.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="300"
-                >
-                  <div class="platform-item">
-                    <a
-                      href="http://orionstars.vip:8580/index.html"
-                      target="_blank"
-                    >
-                      <img
-                        src="/assets/orion.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="400"
-                >
-                  <div class="platform-item">
-                    <a
-                      href="http://www.pandamaster.vip:8888/index.html"
-                      target="_blank"
-                    >
-                      <img
-                        src="/assets/panda.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="500"
-                >
-                  <div class="platform-item">
-                    <a href="http://download.gamevault999.com" target="_blank">
-                      <img
-                        src="/assets/vault.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <div
-                  class="col-md-2 col-6"
-                  data-aos="flip-up"
-                  data-aos-delay="600"
-                >
-                  <div class="platform-item">
-                    <a href="http://m.lasvegassweeps.com" target="_blank">
-                      <img
-                        src="/assets/vegas.jpeg"
-                        alt="Game E"
-                        class="animate__animated animate__flipInX"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <p>(CLICK ON ICONS TO DOWNLOAD)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sect_4_bg" data-aos="fade-up">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner_caption_4">
-              <h2>SO WHAT ARE YOU WAITING FOR???</h2>
-              <h1>CLICK ON ICONS TO JOIN OUR FAMILY</h1>
-              <div class="social-icons">
-                <div class="social-icon" data-aos="zoom-in" data-aos-delay="100">
-                  <a href="https://web.whatsapp.com/send?phone=+12548042716&text=Hello%2C%20World!" target="_blank">
-                    <img src="/assets/whats.png" alt="Whatsapp" class="animate__animated animate__zoomIn" />
-                  </a>
-                </div>
-                <div class="social-icon" data-aos="zoom-in" data-aos-delay="200">
-                  <a href="http://t.me/MegawinnersclubMWC" target="_blank">
-                    <img src="/assets/tele.png" alt="Telegram" class="animate__animated animate__zoomIn" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- <section class="sect_4_bg" data-aos="fade-up">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="banner_caption_4">
-              <h2>START WINNING TODAY!</h2>
-              <div class="social-icons">
-                <div
-                  class="social-icon"
-                  data-aos="zoom-in"
-                  data-aos-delay="100"
-                >
-                  <a
-                    href="https://web.whatsapp.com/send?phone=+12548042716&text=Hello%2C%20World!"
-                    target="_blank"
-                  >
-                    <img
-                      src="/assets/whats.png"
-                      alt="Whatsapp"
-                      class="animate__animated animate__zoomIn"
-                    />
-                  </a>
-                </div>
-                <div
-                  class="social-icon"
-                  data-aos="zoom-in"
-                  data-aos-delay="200"
-                >
-                  <a href="http://t.me/MegawinnersclubMWC" target="_blank">
-                    <img
-                      src="/assets/tele.png"
-                      alt="Telegram"
-                      class="animate__animated animate__zoomIn"
-                    />
-                  </a>
-                </div>
-              </div>
-              <h1 class="animate__animated animate__fadeInDown">
-                JOIN OUR WINNING COMMUNITY NOW!
-              </h1>
             </div>
           </div>
         </div>
